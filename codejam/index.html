@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap-conteiner">
+    <div class="ancient-conteiner">
+        <div class="azathoth" style= "background-image:  url(assets/Ancients/Azathoth.png)"></div>
+        <div class="azathoth" style= "background-image:  url(assets/Ancients/Cthulthu.png)"></div>
+        <div class="azathoth" style= "background-image:  url(assets/Ancients/IogSothoth.png)"></div>
+        <div class="azathoth" style= "background-image:  url(assets/Ancients/ShubNiggurath.png)"></div>
+    </div>
+    <div class="difficulty-conteiner">
+    <span class="choose">Choose difficulty</span>
+    <div class="difficulty very-easy">Very easy</div>
+    <div class="difficulty easy">Easy</div>
+    <div class="difficulty medium">Medium</div>
+    <div class="difficulty hard">Hard</div>
+    <div class="difficulty very-hard">Very hard</div>
+    </div>
+    <div class="deck-conteiner hidden">
+        <div class="restart-button">
+            <button class="retry">Начать заново</button>
+        </div>
+        <div class="deck-tracker hidden">
+            <div class="card-tracker">
+                <span class="stage-text">Первая стадия</span>
+                <div class="stage one">
+                    <div class="green first-one one"></div>
+                    <div class="yellow first-two one"></div>
+                    <div class="blue first-three one"></div>
+                </div>
+                <span class="stage-text">Вторая стадия</span>
+                <div class="stage two">
+                    <div class="green second-one two"></div>
+                    <div class="yellow second-two two"></div>
+                    <div class="blue second-three two"></div>
+                </div>
+                <span class="stage-text">Третья стадия</span>
+                <div class="stage three">
+                    <div class="green third-one three"></div>
+                    <div class="yellow third-two three"></div>
+                    <div class="blue third-three three"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="mix-button disable">Замешать колоду</button>
+        </div>
+        <div class="card__sides hidden">
+            <div class="backside"></div>
+            <div class="main-side hidden"></div>
+        </div>    
+    </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
