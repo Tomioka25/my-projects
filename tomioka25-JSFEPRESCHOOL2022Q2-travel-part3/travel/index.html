@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="website-icon.svg" type="website-icon">
+    <title>MY FIRST TRAVEL</title>
+    </head>
+<body>
+    <div class="body-conteiner">
+    <div class="popupbg"></div>
+    <div class="darkbg"></div>
+    <header class="header-conteiner">
+        <div class="logo">
+            <img src="icon.svg" alt="logo">
+            <span class="travel-portal">Travel&nbsp;Portal</span>
+        </div>
+        <div class="navigation">
+            <nav class="nav">
+                <div class="close-icon"><img src="close-icon.svg"></div>
+                <ul class="list">
+                    <li><a href="#anchor1" class="item">How&nbsp;It&nbsp;Works</a></li>
+                    <li><a href="#anchor2" class="item">Plan&nbsp;You&nbsp;Trip</a></li>
+                    <li><a href="#anchor3" class="item">Destinations</a></li>
+                    <li><a href="#anchor4" class="item">Travel&nbsp;Stories</a></li>
+                    <li><a href="#anchor5" class="item-burger" id="account">Account</a></li>
+                    <li><a href="#anchor6" class="item-burger">Social&nbsp;Media</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger"></div> 
+        <div class="login">
+            <button class="span">Login</button>
+        </div>
+        <div class="pop-up movetop">
+            <div class="popconteiner">
+                <p class="popuptext">Log in to your account</p>
+                <button class="facebook"><img src='facebook.svg' alt="facebook logo" class="logoface">Sign In with Facebook</button>
+                <button class="google"><img src='google.svg' alt="facebook logo" class="logoface">Sign In with Google</button>
+                <div class="lineconteiner">
+                    <div class="linepop"></div>
+                    <p class="or">or</p>
+                    <div class="linepop"></div>
+                </div>
+                <form class="popform">
+                    <label for="username" class="popformtext">Email</label>
+                    <input type="email" id="username">
+                    <label for="password" class="popformtext">Password</label>
+                    <input type="password" id="password">
+                    <button type="button" class="popButton">Sign In</button>
+                    <p class="forget">Forgot Your Password?</p>
+                    <div class="lineBottom"></div>
+                    <div class="bottomtext">
+                    <p class="textbot">Don't have an account?&nbsp;&nbsp;</p>
+                    <a class="reg">Register</a>
+                    </div>
+                </form>
+            </div>
+        </div>     
+    </header>
+    <main class="main-container">
+        <div class="main">
+        <section class="preview" id="anchor2">
+            <h1 class="Explore">Explore the beauty of the World </h1>
+            <p class="info">Receive personalized recommendations for countries, hotels, activities and more</p>
+            <div class="form">
+                <label class="label">What would you like to do?
+                    <button class="button">Start Planning</button>
+                </label>
+            </div>
+        </section>
+        <section class="steps" id="anchor1">
+            <h2 class="h2">3 STEPS TO THE PERFECT TRIP</h2> 
+                <div class="all">
+                <div class="onestep">
+                    <div class="iconform">
+                        <img class="img" src="velo.svg" alt="icon">
+                    </div>
+                        <p class="paragraph">Tell us what you want to do</p>
+                </div>
+                <div class="twostep">
+                    <div class="iconform">
+                        <img class="img" src="calc.svg" alt="icon">
+                    </div>
+                    <p class="paragraph">Share us preferable dates</p>
+                </div>
+                <div class="threestep">
+                    <div class="iconform">
+                        <img class="img" src="fly.svg" alt="icon">
+                    </div>
+                    <p class="paragraph">We will give you recommendations</p>
+                </div>   
+            </div>  
+        </section>
+        <section class="destinations" id="anchor3">
+            <h2 class="text">POPULAR DESTINATIONS</h2>
+            <input type="radio" name="destinations" id="left" value="left" />
+            <input type="radio" name="destinations" id="center" value="center" checked />
+            <input type="radio" name="destinations" id="right" value="right" />
+            <div class="n-destination">
+                <div class="items active">
+                    <label for="left"></label>
+                    <div class="destination sp">
+                        <img class="dest" src="ocean.jpg" alt="destination image">
+                        <span class="spain">SPAIN</span>
+                    </div>
+                </div>
+                <div class="items">
+                    <label for="center"></label>
+                    <div class="destination japan">
+                        <img class="dest" src="japan.jpg" alt="destination image">
+                        <span class="spain">JAPAN</span>
+                    </div>
+                </div>
+                <div class="items">
+                    <label for="right"></label>
+                    <div class="destination usa ">
+                        <img class="dest" src="bridge.jpg" alt="destination image">
+                        <span class="spain">USA</span>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <img src="right.svg" alt="left arrow" class="arrow leftt">
+                    <img src="right.svg" alt="right arrow" class="arrow rightt">
+                </div>
+            </div>
+            <div class="switch">
+                <label for="left"></label>
+                <label for="center"></label>
+                <label for="right"></label>
+                <div class="elips activated"></div>
+                <div class="elips"></div>
+                <div class="elips"></div>
+            </div>
+                <button class="butt">
+                        <img class="arrowbut" src="arrow.svg" alt="arrow icon">                   
+                     <span class="find">Find&nbsp;More</span>
+                </button>
+        </section>
+        <section class="stories" id="anchor4">
+            <h2 class="storiesh2">TRAVEL STORIES</h2>
+            <div class="bg-all">
+            <div class="allstories">
+                <div class="stor1">
+                    <div class="photoone">
+                        <img src="lake.jpg" alt="river photo" class="photoes" id="picture1">
+                        </div> 
+                        <div class="alltext">
+                        <p class="tenPhotos">10 Photos of Attractive Thailand</p>
+                        <p class="storiesInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p class="read-more"><a>Read More</a></p>
+                    </div>
+                </div>
+                <div class="stor1">
+                        <div class="photoone">
+                        <img src="road.jpg" alt="road photo" class="photoes" id="picture2">
+                        </div> 
+                        <div class="alltext">
+                        <p class="tenPhotos">Canyonlands National Park, Utah</p>
+                        <p class="storiesInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p class="read-more"><a>Read More</a></p>
+                        </div>
+                </div>
+                <div class="stor1">
+                        <div class="photoone">
+                        <img src="ice.jpg" alt="ice photo" class="photoes" id="picture3">
+                        </div> 
+                        <div class="alltext">
+                        <p class="tenPhotos">I left my heart in the Mountains!</p>
+                        <p class="storiesInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p class="read-more"><a>Read More</a></p>
+                        </div>
+                </div>
+                <div class="stor1">
+                    <div class="photoone">
+                    <img src="autoandroad.jpg" alt="autoandroad photo" class="photoes" id="picture4">
+                    </div> 
+                    <div class="alltext">
+                    <p class="tenPhotos">The Longest journey in my life!</p>
+                    <p class="storiesInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <p class="read-more"><a>Read More</a></p>
+                    </div>
+                </div>     
+            </div>
+            <button class="butt" id="button">
+                    <img class="arrowbut" src="arrow.svg" alt="arrow icon">
+                 <span class="find">See More</span>
+            </button>
+            </div>    
+        </section>
+    </div>
+    </main>
+    <footer class="footer" id="anchor6">
+        <div class="left">
+            <a href="https://rs.school/js-stage0/">
+                <img src="https://longlegsjourney.netlify.app/assets/menu/rs_school_js.svg" alt="rsschool-icon" class="rsicon">
+            </a>
+            <a href="https://github.com/Tomioka25">
+                <img src="github.svg" alt="github-icon" class="git">
+            </a>
+        </div>
+        <div>
+            <p class="footer-text">All Rights Reserved © Travel Portal</p>
+        </div>
+            <ul class="social-link">
+                <li>
+                    <a href="https://vk.com/alexaladko">
+                        <img src="inst.svg" alt="instagram-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://vk.com/alexaladko">
+                        <img src="youtube.svg" alt="youtube-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://vk.com/alexaladko">
+                        <img src="twitter.svg" alt="twitter-icon">
+                    </a>
+                </li>
+            </ul>
+    </footer>
+    </div>
+    <script src="index.js"></script>   
+</body>
+</html>
